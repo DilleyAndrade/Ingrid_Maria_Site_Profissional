@@ -21,6 +21,7 @@ export function initMenuMobile() {
     navMenuMobile.classList.add('hide')
     openTheMenuMobile.classList.toggle('hide')
     closeTheMenuMobile.classList.toggle('hide')
+    blackMenuMobile.classList.toggle('hide')
     console.log(event.target)
   }
  

@@ -819,13 +819,14 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     h4{
         @include topicsText1;
         animation: topToBottom 1.5s;
+        text-align: center;
     }
     h2{
         @include topicsText2;
+        text-align: center;
         animation: topToBottom 1.5s;
         @include device(650) {
             font-size: 2rem;
@@ -860,8 +861,12 @@ body{
                 cursor: pointer;
                 margin-bottom: 12px;
                 animation: leftToRight 1.5s;
+                text-align: start;
                 @include device(650) {
                     font-size: 2rem
+                }
+                @include device(1040) {
+                    text-align: center;
                 }
             }
             p{
@@ -876,7 +881,6 @@ body{
                     flex-direction: column;
                     align-items: center;
                     text-align: center;
-
                 }
             }
         }

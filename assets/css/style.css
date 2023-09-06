@@ -837,19 +837,20 @@ body {
 .commonQuestions {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center; }
+  align-items: center; }
   .commonQuestions h4 {
     font-family: lexend400;
     font-size: 1.5rem;
     color: #05B6B6;
     font-weight: 400;
-    animation: topToBottom 1.5s; }
+    animation: topToBottom 1.5s;
+    text-align: center; }
   .commonQuestions h2 {
     font-family: sourceSerif700;
     font-size: 3rem;
     color: #212121;
     letter-spacing: -1px;
+    text-align: center;
     animation: topToBottom 1.5s; }
     @media screen and (max-width: 650px) {
       .commonQuestions h2 {
@@ -882,10 +883,14 @@ body {
         color: #212121;
         cursor: pointer;
         margin-bottom: 12px;
-        animation: leftToRight 1.5s; }
+        animation: leftToRight 1.5s;
+        text-align: start; }
         @media screen and (max-width: 650px) {
           .commonQuestions .slideAccordion .accordion h2 {
             font-size: 2rem; } }
+        @media screen and (max-width: 1040px) {
+          .commonQuestions .slideAccordion .accordion h2 {
+            text-align: center; } }
       .commonQuestions .slideAccordion .accordion p {
         font-family: lexend400;
         font-size: 1rem;
