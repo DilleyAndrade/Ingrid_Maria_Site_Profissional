@@ -1,0 +1,78 @@
+@mixin device($size) {
+    @if $size == 1920 {
+        @media screen and (max-width: 1920px) {
+            @content;
+            }
+        }
+        @else if $size == 1800 {
+            @media screen and (max-width: 1800px) {
+                @content;
+            }
+        }
+        @else if $size == 1500 {
+            @media screen and (max-width: 1500px) {
+                @content;
+            }
+        }
+        @else if $size == 1400 {
+            @media screen and (max-width: 1400px) {
+                @content;
+            }
+        }
+        @else if $size == 1340 {
+            @media screen and (max-width: 1340px) {
+                @content;
+            }
+        }
+        @else if $size == 1300 {
+            @media screen and (max-width: 1300px) {
+                @content;
+            }
+        }
+        @else if $size == 1230 {
+            @media screen and (max-width: 1230px) {
+                @content;
+            }
+        }
+        @else if $size == 1200 {
+            @media screen and (max-width: 1200px) {
+                @content;
+            }
+        }
+        @else if $size == 1115 {
+            @media screen and (max-width: 1115px) {
+                @content;
+            }
+        }
+        @else if $size == 1114 {
+            @media screen and (max-width: 1114px) {
+                @content;
+            }
+        }
+        @else if $size == 1113 {
+            @media screen and (min-width: 1113px) {
+                @content;
+            }
+        }
+        @else if $size == 1040 {
+            @media screen and (max-width: 1040px) {
+                @content;
+            }
+        }
+        @else if $size == 830 {
+            @media screen and (max-width: 830px) {
+                @content;
+            }
+        }
+        @else if $size == 650 {
+            @media screen and (max-width: 650px) {
+                @content;
+            }
+        }
+        @else if $size == 450 {
+            @media screen and (max-width: 450px) {
+                @content;
+            }
+        }
+
+}

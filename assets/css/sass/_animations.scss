@@ -1,0 +1,98 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes leftToRight {
+
+    0% {
+        transform: translate3d(-70px, 0, 0);
+        opacity: 0%;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 100%;
+    }
+    
+}
+
+@keyframes rightToLeft {
+
+    0% {
+        transform: translate3d(50px, 0, 0);
+        opacity: 0%;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 100%;
+    }
+}
+
+@keyframes topToBottom {
+    0% {
+        transform: translate3d(0, -50px, 0);
+        opacity: 0%;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 100%;
+    }
+    
+}
+
+@keyframes bottomToTop {
+    0% {
+        transform: translate3d(0, 50px, 0);
+        opacity: 0%;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 100%;
+    }
+}
+
+@keyframes logoAnimation {
+    0%{
+        opacity: 0%;
+        transform: translate3d(0, 0, 0);
+    }
+    50%{
+        opacity: 100%;
+        transform: translate3d(0, 0, 0);
+    }
+    100%{
+        opacity: 0%;
+        rotate: 360deg;
+        transform: translate3d(0, -300px, 0);
+    }
+    
+}
+
+@keyframes closeMenuMobileAnimation {
+    0%{
+        opacity: 100%;
+        rotate: 360deg;
+        scale: 100%;
+    }
+    100%{
+        opacity: 0%;
+        scale: 0%;
+    }
+}
+
+@keyframes openMenuMobileAnimation {
+    0%{
+        opacity: 0%;
+        scale: 0%;
+    }
+    100%{
+        
+        opacity: 100%;
+        rotate: 360deg;
+        scale: 100%;
+    }
+}

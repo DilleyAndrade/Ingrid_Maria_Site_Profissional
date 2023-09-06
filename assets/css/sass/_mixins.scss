@@ -1,0 +1,115 @@
+@mixin firstText{
+    font-family: sourceSerif700;
+    font-size: 4.875rem;
+    color:$fontColorDark;
+}
+
+@mixin topicsText1{
+    font-family: lexend400;
+    font-size: 1.5rem;
+    color: $mainColor;
+    font-weight: 400;
+}
+
+@mixin topicsText2{
+    font-family: sourceSerif700;
+    font-size: 3rem;
+    color:$fontColorDark;
+    letter-spacing: -1px;
+}
+
+
+@mixin servicesTextMain{
+    font-family: sourceSerif700;
+    font-size: 1.5rem;
+    color: $fontColorPale;
+}
+
+
+@mixin paragraph{
+    font-family:lexend400;
+    font-size: 1rem;
+    color:$fontColorDark;
+}
+
+@mixin paragraphSourceSerif{
+    font-family:sourceSerif700;
+    font-size: 1rem;
+    color:$fontColorPale;
+}
+
+@mixin ballonsTitle{
+    font-family: sourceSerif700;
+    font-size: 1.5rem;
+    color:$fontColorDark;
+}
+
+@mixin aboutMetext{
+    font-family:lexend400;
+    font-size: 1.25rem;
+    color:$fontColorDark;
+}
+
+@mixin modalText{
+    font-family: sourceSerif700;
+    font-size: 2rem;
+    color:$fontColorDark;
+}
+
+@mixin commentText{
+    font-family: lexend300;
+    font-size: 2.5rem;
+    color:$fontColorPale;
+}
+
+@mixin firstButton{
+    background: $firstButton;
+    padding: 26px 55px;
+    font-family: lexend700;
+    color: $fontColorPale;
+    &:hover{
+        background: $hoverColor;
+        transition: .2s;
+    }
+}
+
+@mixin blueButton{
+    cursor: pointer;
+    a{
+        color: $fontColorPale;
+        font-family: lexend700;
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+    background: $mainColor;
+    padding: 20px 32px;
+    border-radius: 50px;
+    &:hover{
+        background: $hoverColor;
+        transition: .2s;
+    }
+}
+
+@mixin whiteButton{
+    cursor: pointer;
+    
+    a{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: $mainColor;
+        font-family: lexend700;
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+    background: $fontColorPale;
+    padding: 20px 32px;
+    border-radius: 50px;
+    @include device(650) {
+        padding: 20px 10px;
+    }
+    &:hover{
+        background: rgb(247, 247, 247);
+        transition: .2s;
+    }
+}
