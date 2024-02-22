@@ -40,7 +40,6 @@ export function initShowComments() {
 
     setInterval(()=>{
       timer++
-      console.log(timer)
       if(timer <=5) {
         comment1.classList.remove('hide')
         comment2.classList.add('hide')

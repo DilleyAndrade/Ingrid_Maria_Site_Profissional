@@ -8,7 +8,6 @@ export function initMovePhoto() {
 
   setInterval(()=>{
     counter++
-    console.log(counter + 'counter')
     if(counter <= 4) {
       photo1.classList.remove('hide')
       photo2.classList.add('hide')

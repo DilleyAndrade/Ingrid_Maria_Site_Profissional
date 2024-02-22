@@ -15,7 +15,6 @@ export function initInitialservices() {
 
     function showServiceTherapy() {
         individualTherapyDescription.classList.toggle('hide')
-        console.log('funcionando')
     };
 
     lectureService.addEventListener('mouseenter', showServiceLecture);
@@ -23,7 +22,6 @@ export function initInitialservices() {
 
     function showServiceLecture() {
         lectureDescription.classList.toggle('hide')
-        console.log('funcionando')
     };
 
     tccApproachService.addEventListener('mouseenter', showServicetccApproach);
@@ -31,7 +29,6 @@ export function initInitialservices() {
 
     function showServicetccApproach() {
         tccApproachDescription.classList.toggle('hide')
-        console.log('funcionando')
     };
                     
 }
