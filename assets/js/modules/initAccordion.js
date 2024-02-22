@@ -43,8 +43,4 @@ export function initAccordion() {
         accordion3Text.classList.add('hide')
         accordion4Text.classList.remove('hide')
     }
-
-
-    
-    
 }

@@ -28,5 +28,4 @@ export function initMovePhoto() {
       counter = 0
     }
   },1000)
-
 }

@@ -35,9 +35,6 @@ export function initShowComments() {
     timer = 10
   }
 
-  
-  
-
     setInterval(()=>{
       timer++
       if(timer <=5) {
@@ -67,5 +64,4 @@ export function initShowComments() {
         timer = 0
       }
     },1000)
-
 }

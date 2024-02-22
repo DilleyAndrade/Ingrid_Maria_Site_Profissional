@@ -121,6 +121,19 @@ body{
     }
 }
 
+.navSocialMedia {
+    a{
+        svg{
+            fill: $mainColor;
+            &:hover{
+                scale: 105%;
+                fill: $hoverColor;
+                transition: .3s;
+            } 
+        }
+    }
+}
+
 .logoNav{
     display: flex;
     align-items: center;
@@ -144,12 +157,6 @@ body{
             }
         }
     }
-}
-
-.navSocialMedia svg:hover path{
-    fill: $hoverColor;
-    transition: .2s;
-    scale: 105%;
 }
 
 .menuMobile {
@@ -981,8 +988,9 @@ body{
     p{
         @include commentText;
         margin-bottom: 60px;
+        font-size: 1.5rem;
         @include device(650) {
-            font-size: 1.5rem;
+            
             margin-bottom: 20px;
         }
     }
@@ -1062,13 +1070,11 @@ body{
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-   
     .post{
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 320px;
-        
         img{
             border-radius: 10px 10px 0 0;
         }

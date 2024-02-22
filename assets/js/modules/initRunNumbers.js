@@ -10,7 +10,6 @@ export function initRunNumbers() {
         let satisfiedNumber = 0
         let problemsNumber = 0
         let certificatesNumbers = 0
-        
 
         setInterval(()=>{
             if(serviceNumber <= 480 ){
@@ -19,7 +18,7 @@ export function initRunNumbers() {
             }
             if(satisfiedNumber <= 60){
                 satisfiedNumber = satisfiedNumber+3
-                satisfiedCustomers.innerHTML = satisfiedNumber
+                satisfiedCustomers.innerHTML = satisfiedNumber + '+'
             }
             if(problemsNumber <= 950){
                 problemsNumber = problemsNumber+50
@@ -27,7 +26,7 @@ export function initRunNumbers() {
             }
             if(certificatesNumbers <= 44){
                 certificatesNumbers = certificatesNumbers+2
-                ObtainedCertificates.innerHTML = certificatesNumbers
+                ObtainedCertificates.innerHTML = certificatesNumbers + '+'
             }
             
         }, 80)

@@ -8,8 +8,6 @@ export function initInitialservices() {
     const tccApproachService = document.querySelector('.tccApproachService');
     const tccApproachDescription = document.querySelector('.tccApproachDescription');
 
-
-
     individualTherapyService.addEventListener('mouseenter', showServiceTherapy);
     individualTherapyService.addEventListener('mouseleave', showServiceTherapy);
 
@@ -29,7 +27,6 @@ export function initInitialservices() {
 
     function showServicetccApproach() {
         tccApproachDescription.classList.toggle('hide')
-    };
-                    
+    };            
 }
 

@@ -23,5 +23,4 @@ export function initMenuMobile() {
     closeTheMenuMobile.classList.toggle('hide')
     blackMenuMobile.classList.toggle('hide')
   }
- 
 }

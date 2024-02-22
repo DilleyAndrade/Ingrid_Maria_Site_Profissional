@@ -139,7 +139,7 @@ body {
 }
 
 .blueLine {
-  background: #05B6B6;
+  background: rgb(5, 182, 182);
   width: 302px;
   height: 4px;
   margin-bottom: 20px;
@@ -152,7 +152,7 @@ body {
 
 .button {
   cursor: pointer;
-  background: #05B6B6;
+  background: rgb(5, 182, 182);
   padding: 20px 32px;
   border-radius: 50px;
   animation: fadeIn 1.5s;
@@ -179,7 +179,7 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  color: #05B6B6;
+  color: rgb(5, 182, 182);
   font-family: lexend700;
   font-size: 1.25rem;
   font-weight: 700;
@@ -196,7 +196,7 @@ body {
 
 /*------Header----------*/
 .firstContacts {
-  background: #05B6B6;
+  background: rgb(5, 182, 182);
 }
 
 @media screen and (max-width: 1114px) {
@@ -275,6 +275,15 @@ body {
   margin-left: 13px;
 }
 
+.navSocialMedia a svg {
+  fill: rgb(5, 182, 182);
+}
+.navSocialMedia a svg:hover {
+  scale: 105%;
+  fill: #CDAE6F;
+  transition: 0.3s;
+}
+
 .logoNav {
   display: flex;
   align-items: center;
@@ -284,11 +293,11 @@ body {
   display: inline-block;
   font-family: lexend400;
   font-size: 1.5rem;
-  color: #05B6B6;
+  color: rgb(5, 182, 182);
   font-weight: 400;
 }
 .logoNav nav ul li a {
-  color: #05B6B6;
+  color: rgb(5, 182, 182);
 }
 .logoNav nav ul li a:hover {
   color: #CDAE6F;
@@ -297,12 +306,6 @@ body {
 }
 .logoNav nav ul li a + a {
   margin-left: 32px;
-}
-
-.navSocialMedia svg:hover path {
-  fill: #CDAE6F;
-  transition: 0.2s;
-  scale: 105%;
 }
 
 .menuMobile {
@@ -361,7 +364,7 @@ body {
   margin: 15px 0;
 }
 .navMenuMobile nav ul li {
-  border-bottom: solid 2px #05B6B6;
+  border-bottom: solid 2px rgb(5, 182, 182);
 }
 .navMenuMobile nav ul li a {
   font-family: lexend400;
@@ -385,7 +388,7 @@ body {
 
 .menuMobileSocialMedia {
   margin-top: 30px;
-  border-bottom: solid 2px #05B6B6;
+  border-bottom: solid 2px rgb(5, 182, 182);
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
@@ -683,7 +686,7 @@ body {
 .aboutMe h4 {
   font-family: lexend400;
   font-size: 1.5rem;
-  color: #05B6B6;
+  color: rgb(5, 182, 182);
   font-weight: 400;
   animation: leftToRight 1.5s;
 }
@@ -772,7 +775,7 @@ body {
 .terapyTypes h4 {
   font-family: lexend400;
   font-size: 1.5rem;
-  color: #05B6B6;
+  color: rgb(5, 182, 182);
   font-weight: 400;
   animation: leftToRight 1.5s;
 }
@@ -816,7 +819,7 @@ body {
   height: 159px;
 }
 .terapyInformations .serviceIcon {
-  background: #05B6B6;
+  background: rgb(5, 182, 182);
   border-radius: 50%;
   padding: 10px;
   position: absolute;
@@ -837,14 +840,14 @@ body {
   font-family: lexend400;
   font-size: 1rem;
   color: #212121;
-  border-top: solid 2px #05B6B6;
+  border-top: solid 2px rgb(5, 182, 182);
   padding-top: 12px;
 }
 
 .learnMore {
   display: flex;
   align-items: center;
-  background: #05B6B6;
+  background: rgb(5, 182, 182);
   border-radius: 0 0 10px 10px;
   gap: 5px;
   padding: 16px;
@@ -912,7 +915,7 @@ body {
 .allServices h4 {
   font-family: lexend400;
   font-size: 1.5rem;
-  color: #05B6B6;
+  color: rgb(5, 182, 182);
   font-weight: 400;
   animation: topToBottom 1.5s;
 }
@@ -978,7 +981,7 @@ body {
 .advantageConsulting .infoImg .advantageInfo h4 {
   font-family: lexend400;
   font-size: 1.5rem;
-  color: #05B6B6;
+  color: rgb(5, 182, 182);
   font-weight: 400;
   animation: leftToRight 1.5s;
 }
@@ -1003,7 +1006,7 @@ body {
 }
 .advantageConsulting .infoImg .advantageInfo h6::before {
   content: "⚈";
-  color: #05B6B6;
+  color: rgb(5, 182, 182);
   padding: 0 0.25rem;
 }
 .advantageConsulting .infoImg .advantageInfo h6 {
@@ -1029,7 +1032,7 @@ body {
 
 /*----pt7------*/
 .pt7 {
-  background: #05B6B6;
+  background: rgb(5, 182, 182);
   padding: 50px 0;
   text-align: center;
 }
@@ -1078,7 +1081,7 @@ body {
 .commonQuestions h4 {
   font-family: lexend400;
   font-size: 1.5rem;
-  color: #05B6B6;
+  color: rgb(5, 182, 182);
   font-weight: 400;
   animation: topToBottom 1.5s;
   text-align: center;
@@ -1272,10 +1275,10 @@ body {
   font-size: 2.5rem;
   color: #ffffff;
   margin-bottom: 60px;
+  font-size: 1.5rem;
 }
 @media screen and (max-width: 650px) {
   .comments p {
-    font-size: 1.5rem;
     margin-bottom: 20px;
   }
 }
@@ -1290,7 +1293,7 @@ body {
   font-size: 2.5rem;
   color: #ffffff;
   font-size: 2rem;
-  color: #05B6B6;
+  color: rgb(5, 182, 182);
 }
 
 .comment1 {
@@ -1323,7 +1326,7 @@ body {
   transition: 0.3s;
 }
 .selectors .active {
-  background: #05B6B6;
+  background: rgb(5, 182, 182);
   transition: 0.8s;
 }
 
@@ -1341,7 +1344,7 @@ body {
 .socialMediaLink h4 {
   font-family: lexend400;
   font-size: 1.5rem;
-  color: #05B6B6;
+  color: rgb(5, 182, 182);
   font-weight: 400;
   animation: leftToRight 1.5s;
 }
@@ -1404,7 +1407,7 @@ body {
 
 /*---------pt11----------*/
 .pt11 {
-  background: #05B6B6;
+  background: rgb(5, 182, 182);
   padding: 64px 0;
 }
 .pt11 .callToAction {
@@ -1489,7 +1492,7 @@ footer {
   transition: 0.2s;
 }
 .explore ul li a:hover {
-  color: #05B6B6;
+  color: rgb(5, 182, 182);
 }
 .explore ul li + li {
   margin-top: 11px;
@@ -1534,7 +1537,7 @@ footer {
   outline: none;
 }
 .newslatters form button {
-  background: #05B6B6;
+  background: rgb(5, 182, 182);
   font-family: lexend400;
   font-size: 1.25rem;
   color: #212121;
@@ -1569,14 +1572,14 @@ footer {
   font-family: lexend400;
   font-size: 1.25rem;
   color: #212121;
-  color: #05B6B6;
+  color: rgb(5, 182, 182);
 }
 .credit a:hover {
   color: #CDAE6F;
 }
 
 .arrowUp {
-  background: #05B6B6;
+  background: rgb(5, 182, 182);
   padding: 15px;
   outline: 4px solid #ffffff;
   border-radius: 50%;

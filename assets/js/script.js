@@ -11,7 +11,7 @@ import { initMenuMobile } from "./modules/initMenuMobile.js";
 initSmoothScroll();
 initMovePhoto();
 initSlideSelect();
-
+initShowComments()
 initRunNumbers();
 initInitialservices();
 initAccordion();

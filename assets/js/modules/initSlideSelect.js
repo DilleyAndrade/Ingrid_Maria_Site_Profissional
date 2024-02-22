@@ -32,7 +32,4 @@ export function initSlideSelect() {
     bigSlide2.classList.add('hide')
     bigSlide3.classList.remove('hide')
   }
-
-
-
 }
