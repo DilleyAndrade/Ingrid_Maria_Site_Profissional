@@ -703,7 +703,7 @@ body {
 }
 @media screen and (max-width: 1340px) {
   .aboutMe p {
-    text-align: center;
+    text-align: start;
   }
 }
 .aboutMe .abouteMeInformations {
@@ -1610,6 +1610,24 @@ footer {
 [data-anime=scroll].active {
   opacity: 1;
   transform: translate3d(0, 0, 0);
+}
+
+/*Thanks Page */
+.thanksPage {
+  background-image: url(/assets/img/mainBackground.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  padding: 0 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.thanksPage button {
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */

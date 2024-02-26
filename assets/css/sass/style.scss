@@ -473,13 +473,13 @@ body{
     @include device(1340) {
         flex-direction: column;
         justify-content: center;
-        align-items: center
+        align-items: center;
     }
     h2{
         @include topicsText2;
         animation: leftToRight 1.5s;
         @include device(1340) {
-            text-align: center
+            text-align: center;
         }
         @include device(650) {
             font-size: 2rem
@@ -489,14 +489,14 @@ body{
         @include topicsText1;
         animation: leftToRight 1.5s;
         @include device(1340) {
-            text-align: center
+            text-align: center;
         }
     }
     p{
         @include aboutMetext;
         animation: topToBottom 1.5s;
         @include device(1340) {
-            text-align: center
+            text-align: start;
         }
     }
     .abouteMeInformations{
@@ -1297,4 +1297,25 @@ footer {
 [data-anime="scroll"].active {
     opacity: 1;
     transform: translate3d(0, 0, 0);
+}
+
+
+/*Thanks Page */
+
+.thanksPage {
+    background-image: url(/assets/img/mainBackground.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    padding: 0 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    button{
+        border: none;
+    }
+    
 }
