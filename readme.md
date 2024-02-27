@@ -57,8 +57,6 @@
   </strong>
      <br>
   -Formulário de contato para consultas e agendamentos.
-     <br>
-  -nformações de localização e horário de atendimento.
 </p>
 
 <br/>
