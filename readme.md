@@ -19,35 +19,45 @@
   <strong>
     Página Inicial:
   </strong>
+    <br>
   -Uma introdução calorosa à Psicóloga Ingrid Maria.
+     <br>
   -Destaques sobre os serviços oferecidos.
+     <br>
   -Links rápidos para seções-chave do site.
 </p>
 <p>
   <strong>
     Sobre Mim:
   </strong>
+     <br>
   -Uma seção detalhada sobre a formação e experiência da Psicóloga Ingrid Maria.
+     <br>
   -Informações sobre abordagens terapêuticas adotadas.
 </p>
 <p>
   <strong>
     Serviços:
   </strong>
+     <br>
   -Descrições detalhadas dos serviços oferecidos.
+     <br>
   -Possibilidade de agendamento de consultas online.
 </p>
 <p>
   <strong>
     Depoimentos:
   </strong>
+     <br>
   -Testemunhos de clientes satisfeitos para reforçar a credibilidade.
 </p>
 <p>
   <strong>
     Contato:
   </strong>
+     <br>
   -Formulário de contato para consultas e agendamentos.
+     <br>
   -nformações de localização e horário de atendimento.
 </p>
 
