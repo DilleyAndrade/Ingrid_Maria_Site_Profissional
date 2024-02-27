@@ -3,7 +3,7 @@
     Bem-vindo ao repositório do projeto do site profissional da Psicóloga Ingrid Maria. Este projeto foi desenvolvido com o objetivo de criar uma presença online robusta e informativa para a Psicóloga Ingrid Maria, facilitando o acesso às informações sobre seus serviços, abordagens terapêuticas e formas de contato.
 </h4>
 <hr/>
-<img src="../assets/img/thumb.jpg">
+<img src="./assets/img/thumb.jpg">
 
 <hr/>
 
